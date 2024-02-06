@@ -1,0 +1,25 @@
+{
+  "name": "server-reachable",
+  "version": "1.0.0",
+  "description": "Finding online servers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serverAssessor.js",
+    "test": "jest"
+  },
+  "author": "skyflyhighly",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "ts-jest": "^29.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}
